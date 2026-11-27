@@ -156,5 +156,5 @@ The analysis covers one year, so seasonal patterns are tentative. There is no co
  
 ## Contact
  
-**[Your Name]** · [LinkedIn](`link`) · [Portfolio](`link`) · [Email](`mailto:email`)
+**Abdulsobur Adejumo** · [LinkedIn](`link`) · [Portfolio](`link`) · [Email](`adejumoabdulsobur03@gmail.com`)
  
