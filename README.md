@@ -1,7 +1,5 @@
 # E-Commerce Sales Performance Analysis
- 
-An end-to-end analysis of 190,000+ e-commerce order lines: data cleaning and validation in Excel, followed by modelling and dashboarding in Power BI.
- 
+  
 ![Dashboard overview](images/dashboard_overview.png)
  
 ## Executive Summary
