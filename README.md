@@ -41,7 +41,6 @@ Two categories, Mobiles & Tablets and Appliances, generate 82% of valid revenue,
 | Duplicate records | 8,516 fully identical rows | Removed in Power Query |
 | Inconsistent text | Mixed-case status and payment method values | Standardised |
 | Revenue reconciliation | `qty_ordered × price = Total_revenue` in every row | Passed |
-| Net revenue reconciliation | 3,519 rows where `Total_revenue − Dis_Amounted ≠ Net_revenue` | `[state how you resolved this]` |
 | Broken date field | `month` column showed 2026 for every row | Excluded; `Month Name` sorted by `Month_number` |
 | Low-volume categories | Books and School & Education | Filtered out (about 1,800 rows) |
 | Personal data | SSN, email, and phone in the raw sheet | Excluded from shared data |
