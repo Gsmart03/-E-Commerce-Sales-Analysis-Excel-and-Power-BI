@@ -14,7 +14,7 @@ Two categories, Mobiles & Tablets and Appliances, generate 82% of valid revenue,
 |---|---|
 | **Business problem** | Understand which categories earn the most, how sales change over time, and how customers behave |
 | **Period** | October 2020 to September 2021 |
-| **Dataset source** | `[add source and link; confirm licence]` |
+| **Dataset source** | `[Dataset LInk](https://www.kaggle.com/datasets/miketaylor123/sales-data/data)` |
 | **Data volume** | 286,392 raw rows `[verify]`, 204,127 after Excel cleaning, **193,794** final rows across 7 categories |
 | **Tools** | Excel (cleaning, validation), Power Query (transformation), Power BI and DAX (analysis, visualisation) |
  
@@ -57,8 +57,14 @@ Two categories, Mobiles & Tablets and Appliances, generate 82% of valid revenue,
 The model is a single flat table, `Cleaned_data`.
  
 ```DAX
-Valid Net Revenue =
+Net Revenue =
 CALCULATE(SUM(Cleaned_data[Net_revenue]), Cleaned_data[bi_st] = "Valid")
+
+Total Revenue = 
+CALCULATE(SUM(Cleaned_data[Total_revenue]), Cleaned_data[bi_st] = "Valid")
+
+Units Sold =
+CALCULATE(SUM(Cleaned_data[qty_ordered]), Cleaned_data[bi_st] = "Valid")
  
 Valid Orders =
 CALCULATE(DISTINCTCOUNT(Cleaned_data[order_id]), Cleaned_data[bi_st] = "Valid")
@@ -139,22 +145,10 @@ The report is a single interactive page with slicers for Month, Gender, and Cate
 ## 8. Limitations
  
 The analysis covers one year, so seasonal patterns are tentative. There is no cost data, so profit and margin cannot be assessed. The `Valid` revenue flag includes refunded orders, and two categories were excluded, so totals do not represent the entire business. Relationships such as discounts and June sales are correlations and do not prove cause.
- 
----
- 
-## 9. Repository Structure
- 
-```
-├── data/        cleaned, anonymised dataset
-├── excel/       workbook with cleaning and validation log
-├── powerbi/     .pbix file (no personal data)
-├── images/      dashboard screenshots
-└── README.md
-```
- 
+
 ---
  
 ## Contact
  
-**Abdulsobur Adejumo** · [LinkedIn](`link`) · [Portfolio](`link`) · [Email](`adejumoabdulsobur03@gmail.com`)
+**Abdulsobur Adejumo** · [LinkedIn](`www.linkedin.com/in/adejumo-abdulsobur-b40184249`)  · [Email](`adejumoabdulsobur03@gmail.com`)
  
