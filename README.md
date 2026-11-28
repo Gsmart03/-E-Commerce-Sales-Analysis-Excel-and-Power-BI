@@ -105,7 +105,7 @@ The report is a single interactive page with slicers for Month, Gender, and Cate
 | Net Revenue (valid) | $54.55M | Total Customers | 19.8K |
 | Total Revenue | $57.67M | Average Order Value | 1.52K |
 | Average Discount | 3.88% | Repeat Customers | 6,102 (30.9%) |
-| Units Sold | 156K | Cancellation / Refund Rate | 37.1% / 11.6% |
+| Units Sold | 156K | Cancellation / Refund Rate | 50.9% |
  
 ---
  
