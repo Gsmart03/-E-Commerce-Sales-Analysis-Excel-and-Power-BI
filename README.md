@@ -1,6 +1,6 @@
 # E-Commerce Sales Performance Analysis
   
-![Dashboard overview](images/dashboard_overview.png)
+![Dashboard overview](images/dashboard_overviews.png)
  
 ## Executive Summary
  
